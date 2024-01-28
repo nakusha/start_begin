@@ -1,0 +1,34 @@
+{
+  "name": "nomtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec babel-node src/server.js",
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakusha/start_begin.git"
+  },
+  "keywords": [
+    "https://github.com/nakusha/start_begin.git"
+  ],
+  "author": "yeonsuJeong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakusha/start_begin/issues"
+  },
+  "homepage": "https://github.com/nakusha/start_begin#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "nodemon": "^3.0.3"
+  }
+}
